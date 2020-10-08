@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+// import { title } from 'process';
+import { TodoItem } from './interfaces/todo-item';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'todo-list';
+  title = 'To do lists';
+
+ 
+ 
 }
